@@ -7,3 +7,5 @@ ps -ef | grep cntlm
 	# eaauser   3197  3050  0 10:23 pts/1    00:00:00 /bin/bash ./cntlm.sh
 	# eaauser   3199  3197  0 10:23 pts/1    00:00:00 grep cntlm
 
+ps -ef | grep cntlm | grep root
+
